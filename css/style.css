@@ -25,7 +25,6 @@ header
     width: 100%;
     border: black solid 1px;
     font-family: 'portfontbold';
-
 }
 
 nav
@@ -405,14 +404,13 @@ main section article
     
 }
 
-#projets ul
+
+
+#projets 
 {
-    margin: 6%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 
@@ -425,10 +423,8 @@ main section article
 }
 .container .card{
     position: relative;
-}
-.card
-{
-    border: none;
+    border:none;
+    
 }
 .container .card .face{
     width: 300px;
@@ -505,6 +501,7 @@ main section article
 
 footer
 {
+  margin-top: 3%;
     height: 10vh;
     display: flex;
     flex-direction: column;
